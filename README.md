@@ -7,7 +7,7 @@ This content is parsed as macros can be called as the registered PHP callables. 
 
 require_once 'src/Macro/Macro.php';
 
-use Macro/Macro;
+use Macro\Macro;
 
 Macro::register('hello', function($name){
 	return "Hello $name !";
