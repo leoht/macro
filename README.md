@@ -10,7 +10,7 @@ require_once 'src/Macro/Macro.php';
 use Macro/Macro;
 
 Macro::register('hello', function($name){
-	return 'Hello '+$name+' !';
+	return "Hello $name !";
 });
 
 echo Macro::parse('@hello("Foo")'); // will output 'Hello foo !'
