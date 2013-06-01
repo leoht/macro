@@ -1,5 +1,4 @@
 #Macro
-=====
 
 This class allows a developer to register PHP callables, like anonymous functions, as "macros", to use them later in a HTML page for example.
 This content is parsed as macros can be called as the registered PHP callables. Since an example talks a lot more than anything else, here is one :
